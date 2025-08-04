@@ -11,19 +11,48 @@
   "engines": {
     "node": "22.18.0"
   },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ],
+    "env": {
+      "node": true,
+      "browser": true,
+      "jest": true
+    }
+  },
+  "lint-staged": {
+    "*.{css,scss}": "stylelint",
+    "*.{js,jsx}": "standard"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "build:scss": "sass src/main.scss src/assets/css/main.css",
+    "lint:js": "standard",
+    "lint:css": "stylelint '**/*.css'",
+    "lint:scss": "stylelint '**/*.scss'",
+    "lint": "pnpm run lint:js && pnpm run lint:css && pnpm run lint:scss",
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "@vitejs/plugin-react": "4.6.0",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.4",
+    "sass": "1.89.2",
+    "standard": "17.1.2",
+    "stylelint": "16.23.0",
+    "stylelint-config-standard": "39.0.0",
+    "stylelint-config-standard-scss": "15.0.1",
     "vite": "7.0.4"
   }
 }
