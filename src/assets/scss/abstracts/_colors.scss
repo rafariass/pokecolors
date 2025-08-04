@@ -1,0 +1,45 @@
+// Constrastes
+$black: #000 !default;
+$white: #fff !default;
+
+// Colores
+$bug: #739f40, $white;
+$dark: #707070, $white;
+$electric: #eed535, $black;
+$fairy: #fcb9e9, $black;
+$fighting: #d56724, $white;
+$fire: #fd7d25, $white;
+$ghost: #7b62a3, $white;
+$grass: #9bcb50, $black;
+$ice: #51c3e7, $white;
+$normal: #a3acaf, $white;
+$poison: #b97fc8, $white;
+$psychic: #f366b9, $white;
+$rock: #a38c22, $white;
+$steel: #9eb7b7, $white;
+$water: #4592c3, $white;
+$dragon: #54a4cf, #f16e58, $white;
+$flying: #3cc7ef, #bcbab9, $white;
+$ground: #f7de3f, #ab9843, $black;
+
+// Mapa de colores por tipo de pokemon
+$colors: (
+  'bug':      $bug,
+  'dark':     $dark,
+  'electric': $electric,
+  'fairy':    $fairy,
+  'fighting':  $fighting,
+  'fire':      $fire,
+  'ghost':    $ghost,
+  'grass':    $grass,
+  'ice':      $ice,
+  'normal':   $normal,
+  'poison':   $poison,
+  'psychic':  $psychic,
+  'rock':     $rock,
+  'steel':    $steel,
+  'water':    $water,
+  'dragon':   $dragon,
+  'flying':    $flying,
+  'ground':   $ground
+) !default;

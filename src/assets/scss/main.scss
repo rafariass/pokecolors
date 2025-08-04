@@ -1,0 +1,8 @@
+// Abstracts
+@use './abstracts/colors' as *;
+
+// Mixin
+@use './mixin/generators' as *;
+
+// Generador de clases por tipo de Pokemon
+@include generate-bg-classes($colors);

@@ -28,7 +28,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:scss": "sass src/main.scss src/assets/css/main.css",
+    "build:scss": "sass src/main.scss src/assets/css/main.css && stylelint '**/*.css' --fix",
     "lint:js": "standard",
     "lint:css": "stylelint '**/*.css'",
     "lint:scss": "stylelint '**/*.scss'",

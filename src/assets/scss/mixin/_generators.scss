@@ -1,0 +1,39 @@
+@use "sass:list";
+
+@mixin generate-bg-classes($colors) {
+  @each $color, $value in $colors {
+    $length: list.length($value);
+
+    @if $length == 2 {
+      .poke-bg-#{$color} {
+        background: list.nth($value, 1) !important;
+      }
+
+      .poke-bg-#{$color}-alpha {
+        background-color: rgba(list.nth($value, 1), 0.5) !important;
+      }
+
+      .poke-text-#{$color} {
+        color: list.nth($value, 2) !important;
+      }
+    } @else if $length == 3 {
+      .poke-bg-#{$color} {
+        background: linear-gradient(
+          list.nth($value, 1),
+          list.nth($value, 2)
+        ) !important;
+      }
+
+      .poke-bg-#{$color}-alpha {
+        background: linear-gradient(
+          rgba(list.nth($value, 1), 0.5),
+          rgba(list.nth($value, 2), 0.5)
+        ) !important;
+      }
+
+      .poke-text-#{$color} {
+        color: list.nth($value, 3) !important;
+      }
+    }
+  }
+}

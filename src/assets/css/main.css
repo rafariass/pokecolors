@@ -1,1 +1,215 @@
-/* Archivo Bace CSS  */
+.poke-bg-bug {
+  background: #739f40 !important;
+}
+
+.poke-bg-bug-alpha {
+  background-color: rgb(115 159 64 / 50%) !important;
+}
+
+.poke-text-bug {
+  color: #fff !important;
+}
+
+.poke-bg-dark {
+  background: #707070 !important;
+}
+
+.poke-bg-dark-alpha {
+  background-color: rgb(112 112 112 / 50%) !important;
+}
+
+.poke-text-dark {
+  color: #fff !important;
+}
+
+.poke-bg-electric {
+  background: #eed535 !important;
+}
+
+.poke-bg-electric-alpha {
+  background-color: rgb(238 213 53 / 50%) !important;
+}
+
+.poke-text-electric {
+  color: #000 !important;
+}
+
+.poke-bg-fairy {
+  background: #fcb9e9 !important;
+}
+
+.poke-bg-fairy-alpha {
+  background-color: rgb(252 185 233 / 50%) !important;
+}
+
+.poke-text-fairy {
+  color: #000 !important;
+}
+
+.poke-bg-fighting {
+  background: #d56724 !important;
+}
+
+.poke-bg-fighting-alpha {
+  background-color: rgb(213 103 36 / 50%) !important;
+}
+
+.poke-text-fighting {
+  color: #fff !important;
+}
+
+.poke-bg-fire {
+  background: #fd7d25 !important;
+}
+
+.poke-bg-fire-alpha {
+  background-color: rgb(253 125 37 / 50%) !important;
+}
+
+.poke-text-fire {
+  color: #fff !important;
+}
+
+.poke-bg-ghost {
+  background: #7b62a3 !important;
+}
+
+.poke-bg-ghost-alpha {
+  background-color: rgb(123 98 163 / 50%) !important;
+}
+
+.poke-text-ghost {
+  color: #fff !important;
+}
+
+.poke-bg-grass {
+  background: #9bcb50 !important;
+}
+
+.poke-bg-grass-alpha {
+  background-color: rgb(155 203 80 / 50%) !important;
+}
+
+.poke-text-grass {
+  color: #000 !important;
+}
+
+.poke-bg-ice {
+  background: #51c3e7 !important;
+}
+
+.poke-bg-ice-alpha {
+  background-color: rgb(81 195 231 / 50%) !important;
+}
+
+.poke-text-ice {
+  color: #fff !important;
+}
+
+.poke-bg-normal {
+  background: #a3acaf !important;
+}
+
+.poke-bg-normal-alpha {
+  background-color: rgb(163 172 175 / 50%) !important;
+}
+
+.poke-text-normal {
+  color: #fff !important;
+}
+
+.poke-bg-poison {
+  background: #b97fc8 !important;
+}
+
+.poke-bg-poison-alpha {
+  background-color: rgb(185 127 200 / 50%) !important;
+}
+
+.poke-text-poison {
+  color: #fff !important;
+}
+
+.poke-bg-psychic {
+  background: #f366b9 !important;
+}
+
+.poke-bg-psychic-alpha {
+  background-color: rgb(243 102 185 / 50%) !important;
+}
+
+.poke-text-psychic {
+  color: #fff !important;
+}
+
+.poke-bg-rock {
+  background: #a38c22 !important;
+}
+
+.poke-bg-rock-alpha {
+  background-color: rgb(163 140 34 / 50%) !important;
+}
+
+.poke-text-rock {
+  color: #fff !important;
+}
+
+.poke-bg-steel {
+  background: #9eb7b7 !important;
+}
+
+.poke-bg-steel-alpha {
+  background-color: rgb(158 183 183 / 50%) !important;
+}
+
+.poke-text-steel {
+  color: #fff !important;
+}
+
+.poke-bg-water {
+  background: #4592c3 !important;
+}
+
+.poke-bg-water-alpha {
+  background-color: rgb(69 146 195 / 50%) !important;
+}
+
+.poke-text-water {
+  color: #fff !important;
+}
+
+.poke-bg-dragon {
+  background: linear-gradient(#54a4cf, #f16e58) !important;
+}
+
+.poke-bg-dragon-alpha {
+  background: linear-gradient(rgb(84 164 207 / 50%), rgb(241 110 88 / 50%)) !important;
+}
+
+.poke-text-dragon {
+  color: #fff !important;
+}
+
+.poke-bg-flying {
+  background: linear-gradient(#3cc7ef, #bcbab9) !important;
+}
+
+.poke-bg-flying-alpha {
+  background: linear-gradient(rgb(60 199 239 / 50%), rgb(188 186 185 / 50%)) !important;
+}
+
+.poke-text-flying {
+  color: #fff !important;
+}
+
+.poke-bg-ground {
+  background: linear-gradient(#f7de3f, #ab9843) !important;
+}
+
+.poke-bg-ground-alpha {
+  background: linear-gradient(rgb(247 222 63 / 50%), rgb(171 152 67 / 50%)) !important;
+}
+
+.poke-text-ground {
+  color: #000 !important;
+}
