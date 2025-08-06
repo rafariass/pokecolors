@@ -10,7 +10,7 @@
       }
 
       .poke-bg-#{$color}-alpha {
-        background-color: rgba(list.nth($value, 1), 0.5) !important;
+        background: rgba(list.nth($value, 1), 0.5) !important;
       }
 
       .poke-text-#{$color} {
